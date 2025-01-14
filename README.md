@@ -1,4 +1,37 @@
-# World Cup Database
+Build a World Cup Database
+==========================
+
+This is one of the required projects to earn your certification. For this project, you will create a Bash script that enters information from World Cup games into PostgreSQL, then query the database for useful statistics.
+
+This course runs in a virtual Linux machine using Gitpod. Follow these instructions to start the course:
+
+1.  [Create a GitHub](https://github.com/join "Source Code Link") account if you don't have one
+2.  Click the start button below
+3.  Login to Gitpod with your GitHub account if you aren't already
+4.  Once the virtual Linux machine is finished loading, start the CodeRoad extension by:
+    *   Clicking the "hamburger" menu near the top left of the VSCode window,
+    *   Going to the "View" menu,
+    *   Clicking on the "Command Palette" option,
+    *   and running the "CodeRoad: Start" command
+5.  Follow the instructions in CodeRoad to complete the course
+
+Complete both steps below to finish the challenge.
+
+* * *
+
+Step 1: Complete the project
+----------------------------
+
+The project runs in a virtual machine, complete the user stories described in there and get all the tests to pass to finish step 1.
+
+**Important:** After you pass all the project tests, save a dump of your database into a `worldcup.sql` file, as well as your `insert_data.sh` and `queries.sh` files, so you can complete step 2. There will be instructions how to do that within the virtual machine.
+
+> Clicking the button below will start a new project. If you have previously started the Build a World Cup Database course, go to [your Gitpod dashboard](https://gitpod.io/workspaces) to continue.
+> 
+> Learn more about [Gitpod workspaces.](https://forum.freecodecamp.org/t/using-gitpod-in-the-curriculum/668669)
+
+> If you log out of freeCodeCamp before you complete the entire Build a World Cup Database course, your progress will not be saved to your freeCodeCamp account.
+
 #### Open [file `solution.txt`](solution.txt) To follow my terminal command. Solutions divided into several steps :
     1. Create Database and connect to it.
     2. Create tables as required conditions.
@@ -6,11 +39,6 @@
     4. Give executable permission to shell scipt files.
     5. Copy & Run shell script files (NOTE : insert data first).
     6. Compact queries into worldcup.sql file.
-
-#### Documentation can be found on : [https://github.com/viktoriussuwandi/World-Cup-Database](https://github.com/viktoriussuwandi/World-Cup-Database)
-
-This is the result to complete the World Cup Database project. 
-Instructions for building this project can be found at [https://www.freecodecamp.org/learn/relational-database/build-a-world-cup-database-project/build-a-world-cup-database](https://www.freecodecamp.org/learn/relational-database/build-a-world-cup-database-project/build-a-world-cup-database)
 
 ## Instructions
 Follow the instructions and get all the user stories below to pass to finish the project.
@@ -45,3 +73,12 @@ If you are saving your progress on [freeCodeCamp.org](freeCodeCamp.org), after g
 9. When you run your `insert_data.sh` script, it should add each `unique team` to the `teams` table. There should be `24` rows.
 10. When you run your `insert_data.sh` script, it should insert a `row` for each line in the `games.csv` file (other than the top line of the file). There should be `32` rows. Each row should have every column filled in with the appropriate info. Make sure to add the correct ID's from the `teams` table (you cannot hard-code the values).
 11. You should correctly complete the queries in the `queries.sh` file. Fill in each empty echo command to get the output of what is suggested with the command above it. Only use a single line like the first query. The output should match what is in the `expected_output.txt` file **exactly**, take note of the number of decimal places in some of the query results.
+
+* * *
+
+Step 2: Submit your code
+------------------------
+
+When you have completed the project, save all the required files into a public repository and submit the URL to it below.
+
+Required files: `worldcup.sql`, `insert_data.sh`, `queries.sh`
